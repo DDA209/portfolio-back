@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-back",
+  "version": "0.1.0",
+  "description": "Front-end of my portfolio in a full stack way",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDA209/portfolio-back.git"
+  },
+  "author": "Didier PASCAREL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDA209/portfolio-back/issues"
+  },
+  "homepage": "https://github.com/DDA209/portfolio-back#readme"
+}
