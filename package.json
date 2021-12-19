@@ -1,19 +1,28 @@
 {
-  "name": "portfolio-back",
-  "version": "0.1.0",
-  "description": "Front-end of my portfolio in a full stack way",
-  "main": "index.js",
-  "scripts": {
-    "test": "test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DDA209/portfolio-back.git"
-  },
-  "author": "Didier PASCAREL",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DDA209/portfolio-back/issues"
-  },
-  "homepage": "https://github.com/DDA209/portfolio-back#readme"
+	"name": "portfolio-back",
+	"version": "0.1.1",
+	"description": "Front-end of my portfolio in a full stack way",
+	"main": "index.js",
+	"scripts": {
+		"test": "test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DDA209/portfolio-back.git"
+	},
+	"author": "Didier PASCAREL",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DDA209/portfolio-back/issues"
+	},
+	"homepage": "https://github.com/DDA209/portfolio-back#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.14",
+		"multer": "^1.4.3"
+	}
 }
